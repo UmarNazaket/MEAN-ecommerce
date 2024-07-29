@@ -33,7 +33,7 @@ This project is a full-stack e-commerce application built with the MEAN with sql
 
 - Node.js
 - npm or yarn
-- MongoDB
+- MYSQL
 
 ### Installation
 
@@ -63,15 +63,19 @@ This project is a full-stack e-commerce application built with the MEAN with sql
    Create a `.env` file in the `backend` directory and add your MongoDB URI and other environment variables:
 
    ```env
-   MONGO_URI=your_mongo_db_uri
-   PORT=5000
+   DB_HOST=127.0.0.1
+   DB_USER=root
+   DB_PASSWORD=
+   DB_NAME=angular_ecommerce_app
+   PORT=5001
+   NODE_ENV=local
    ```
 
 ## Usage
 
-1. **Start MongoDB**
+1. **Start MYSQL**
 
-   Make sure your MongoDB server is running.
+   Make sure your MYSQL server is running.
 
 2. **Start the Backend Server**
 
