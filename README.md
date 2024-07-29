@@ -143,19 +143,4 @@ mean-ecommerce/
 - `npm test`: Runs the unit tests.
 - `npm run lint`: Runs the linter.
 
-## License
-
-This project is licensed under the MIT License.
-```
-
-### Summary
-
-- **Features**: Highlights the key functionalities of the application.
-- **Technologies**: Lists the primary technologies used.
-- **Setup**: Provides step-by-step instructions on how to set up the project locally.
-- **Usage**: Explains how to start the backend and frontend servers.
-- **Folder Structure**: Shows the directory structure of the project.
-- **Scripts**: Lists the available npm scripts for both backend and frontend.
-- **License**: States the licensing information for the project.
-
 Customize it further according to your project's specifics and requirements.
