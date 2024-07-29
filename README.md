@@ -1,7 +1,6 @@
-```markdown
 # MEAN E-commerce Application
 
-This project is a full-stack e-commerce application built with the MEAN (MongoDB, Express, Angular, Node.js) stack. It includes both backend and frontend parts.
+This project is a full-stack e-commerce application built with the MEAN with sql (MYSQL, Express, Angular, Node.js) stack. It includes both backend and frontend parts.
 
 ## Table of Contents
 
@@ -25,7 +24,7 @@ This project is a full-stack e-commerce application built with the MEAN (MongoDB
 
 - **Frontend**: Angular
 - **Backend**: Node.js, Express
-- **Database**: MongoDB
+- **Database**: MYSQL
 - **Styling**: SCSS
 
 ## Setup
@@ -34,7 +33,7 @@ This project is a full-stack e-commerce application built with the MEAN (MongoDB
 
 - Node.js
 - npm or yarn
-- MongoDB
+- MYSQL
 
 ### Installation
 
@@ -64,15 +63,19 @@ This project is a full-stack e-commerce application built with the MEAN (MongoDB
    Create a `.env` file in the `backend` directory and add your MongoDB URI and other environment variables:
 
    ```env
-   MONGO_URI=your_mongo_db_uri
-   PORT=5000
+   DB_HOST=127.0.0.1
+   DB_USER=root
+   DB_PASSWORD=
+   DB_NAME=angular_ecommerce_app
+   PORT=5001
+   NODE_ENV=local
    ```
 
 ## Usage
 
-1. **Start MongoDB**
+1. **Start MYSQL**
 
-   Make sure your MongoDB server is running.
+   Make sure your MYSQL server is running.
 
 2. **Start the Backend Server**
 
@@ -143,20 +146,5 @@ mean-ecommerce/
 - `npm run build`: Builds the Angular application for production.
 - `npm test`: Runs the unit tests.
 - `npm run lint`: Runs the linter.
-
-## License
-
-This project is licensed under the MIT License.
-```
-
-### Summary
-
-- **Features**: Highlights the key functionalities of the application.
-- **Technologies**: Lists the primary technologies used.
-- **Setup**: Provides step-by-step instructions on how to set up the project locally.
-- **Usage**: Explains how to start the backend and frontend servers.
-- **Folder Structure**: Shows the directory structure of the project.
-- **Scripts**: Lists the available npm scripts for both backend and frontend.
-- **License**: States the licensing information for the project.
 
 Customize it further according to your project's specifics and requirements.
