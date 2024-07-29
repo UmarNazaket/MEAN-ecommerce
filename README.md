@@ -1,4 +1,3 @@
-```markdown
 # MEAN E-commerce Application
 
 This project is a full-stack e-commerce application built with the MEAN (MongoDB, Express, Angular, Node.js) stack. It includes both backend and frontend parts.
