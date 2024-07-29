@@ -1,6 +1,6 @@
 # MEAN E-commerce Application
 
-This project is a full-stack e-commerce application built with the MEAN (MongoDB, Express, Angular, Node.js) stack. It includes both backend and frontend parts.
+This project is a full-stack e-commerce application built with the MEAN with sql (MYSQL, Express, Angular, Node.js) stack. It includes both backend and frontend parts.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ This project is a full-stack e-commerce application built with the MEAN (MongoDB
 
 - **Frontend**: Angular
 - **Backend**: Node.js, Express
-- **Database**: MongoDB
+- **Database**: MYSQL
 - **Styling**: SCSS
 
 ## Setup
